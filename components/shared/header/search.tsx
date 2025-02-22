@@ -31,7 +31,7 @@ const Search = () => {
             type='submit' 
             className='bg-primary text-primary-foreground text-black rounded-s-none rounded-r-md h-full px-3 py-2'>
             <SearchIcon className='w-6 h-6' />
-            Search</button>
+            </button>
     </form>
   )
 }
