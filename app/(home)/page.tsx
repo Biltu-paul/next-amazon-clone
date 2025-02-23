@@ -1,10 +1,10 @@
+import HomeCarousel from '@/components/shared/home/home-carousel'
+import data from '@/lib/data'
 import React from 'react'
 
 const Page = () => {
   return (
-    <div>
-      <h1 className='h1-bold text-center p-10'>Home page content new</h1>
-    </div>
+      <HomeCarousel items={data.carousels} />
   )
 }
 
